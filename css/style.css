@@ -13,28 +13,44 @@ body{
 } */
 
 /* common styling  */
+
+/* text color  */
+
 .honda-text-alto{
     color: #E0E0E0;
 }
+.honda-text-burnt-sienna{
+    color: #E76F51;
+}
+.honda-text-picton-blue{
+    color: #23A6F0;
+}
+.honda-text-dove-gray{
+    color: #6C6C6C;
+}   
+
+
+
+/* background color  */
 .honda-bg-blue-dianne{
     background-color: #264653;
 }
 .honda-bg-burnt-sienna{
     background-color: #E76F51;
 }
-.honda-text-burnt-sienna{
-    color: #E76F51;
-}
+
+/* font  */
 .font-weight-light{
     font-weight: 300;
 }
 .font-weight-bold{
     font-weight: 700;
 }
+/* sizing  */
 .w-06{
     width: 6%;
 }
-
+/* spacing  */
 
 .honda-mt-7{
     margin-top: 4rem;
@@ -65,6 +81,12 @@ body{
 /* featured bike section */
 /* latest news optional */
 /* happy client section  */
+
+.honda-img-frame-client{
+    height: 149px;
+    width: 149px;
+}
+
 /* FAQ Section */
 
 
