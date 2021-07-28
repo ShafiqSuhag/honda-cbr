@@ -1,12 +1,57 @@
 /* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 /* header  */
 
 /* logo  */
-.header-nav-logo{
+/* .header-nav-logo{
     width: 100px;
-    /* height: 50px; */
+} */
+
+/* common styling  */
+.honda-text-alto{
+    color: #E0E0E0;
+}
+.honda-bg-blue-dianne{
+    background-color: #264653;
+}
+.honda-bg-burnt-sienna{
+    background-color: #E76F51;
+}
+.honda-text-burnt-sienna{
+    color: #E76F51;
+}
+.font-weight-light{
+    font-weight: 300;
 }
 
-/* footer  */
+
+
+
+/* ------------------------------------------
+                HEADER
+------------------------------------------*/
+/* navigation section  */
+/* hero section */
+
+
+/* ------------------------------------------
+                MAIN
+------------------------------------------*/
+
+/* featured bike section */
+/* latest news optional */
+/* happy client section  */
+/* FAQ Section */
+
+
+/* ------------------------------------------
+                FOOTER
+------------------------------------------*/
+
+
+/* footer section  */
