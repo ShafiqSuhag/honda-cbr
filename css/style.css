@@ -28,7 +28,26 @@ body{
 .font-weight-light{
     font-weight: 300;
 }
+.font-weight-bold{
+    font-weight: 700;
+}
+.w-06{
+    width: 6%;
+}
 
+
+.honda-mt-7{
+    margin-top: 4rem;
+}
+
+.honda-feature-bike-frame{
+    width: 288px;
+    height: 243px;
+}
+
+.honda-filter-grayscale{
+    filter: grayscale(100%);
+}
 
 
 
