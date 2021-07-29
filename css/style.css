@@ -154,15 +154,16 @@ body{
     background-color: rgba(0,0,0,0.7);
 }
 .bike-move-to-left{
-    position: absolute;
-    left: 25%;
+    /* position: absolute;
+    left: 0;
+    background-color: white;
+    margin-top: 30px; */
     background-color: white;
     margin-top: 30px;
+    transform: translate(-35%, 0);
 }
 .copy-right{
-    position: absolute;
-    top: 200px;
-    left: 45%;
+    
 }
 
 @media screen and (max-width:767px) {
@@ -174,6 +175,9 @@ body{
         margin-top: 30px;
         
     }
+    .bike-move-to-left{
+        transform: translate(0, 0);
+    }
 }
 /* ------------------------------------------
                 FOOTER
@@ -181,6 +185,9 @@ body{
 
 
 /* footer section  */
+.honda-bg-vulcan{
+    background-color: #0B0D17;
+}
 
 /* 
 Author : https://github.com/shafiqsuhag

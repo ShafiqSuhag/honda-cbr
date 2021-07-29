@@ -24,7 +24,7 @@
                     <i class="fas fa-bars text-white"></i>
                   </button>
                   <div class="collapse navbar-collapse d-md-flex align-items-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0 ">
+                    <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0  pe-5 ">
                       <li class="nav-item">
                         <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                       </li>
@@ -222,9 +222,9 @@
                 <div class="honda-mb-faq-title d-none d-md-block"></div>
                 <div class="row">
                     <div class="col-md-6  d-flex justify-content-center align-items-center">
-                        <img src="images/faq.png" alt="" class="img-fluid w-50">
+                        <img src="images/faq.png" alt="" class="img-fluid w-75">
                     </div>
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
                         <!-- faq container  -->
                         <div class="accordion honda-font-family-inter honda-font-weight-regular honda-text-mine-shaft" id="accordionExample">
                             
@@ -280,7 +280,9 @@
         <!-------------------------------------------------------------------
                                     EXTRA SECTIONS 
         ------------------------------------------------------------------->
-
+        <div class="honda-mt-faq-title d-none d-md-block"></div>
+        <p class="h1 my-5 my-md-0 honda-font-weight-bold text-center "> Top Selling <span class="honda-text-burnt-sienna">Products</span></p>
+        <div class="honda-mb-faq-title d-none d-md-block"></div>
         <section class="bike-accessories-section d-flex align-items-center my-5 py-3" style="min-height: 400px;">
             <div class="container">
                 <div class="row">
@@ -388,13 +390,13 @@
 
         <!-- bike features  -->
         <section>
-            <div class="container">
-                <div class="row gy-4 position-relative">
+            <div class="container my-5">
+                <div class="row gy-4 ">
                     <div class="col-md-4">
                        <!-- image  -->
                        <img src="images/extra-section/img-about.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-md-7 offset-md-1  ">
+                    <div class="col-md-7 offset-md-1  position-relative">
                         <div class="row">
                             <p class="honda-text-burnt-sienna fw-bold"> TAKING RIDES TO A NEWER LEVEL</p>
                             <p class="h1 fw-bolder">GREAT PERFORMANCE <br>
@@ -457,15 +459,18 @@
                         </div>
                         
                         <!-- feature images  -->
-                        <div class="row  py-3 bike-move-to-left d-none d-md-flex ">
-                            <div class="col-md-6">
-                                <img src="images/extra-section/about-gallery-1.jpg" alt="" class="img-fluid">
+                        <div class="bike-img-container bike-move-to-left  ">
+                            <div class="row  p-3 gx-0 ">
+                                <div class="col-6 pe-3">
+                                    <img src="images/extra-section/about-gallery-1.jpg" alt="" class="w-100">
+                                </div>
+                                <div class="col-6 pe-3">
+                                    <img src="images/extra-section/about-gallery-2.jpg" alt="" class="w-100">
+                                </div>
+                               
                             </div>
-                            <div class="col-md-6">
-                                <img src="images/extra-section/about-gallery-2.jpg" alt=""class="img-fluid">
-                            </div>
-                           
                         </div>
+                        
 
                     </div>
                 </div>
@@ -479,14 +484,49 @@
 
     </main>
     <!-- footer section  -->
-    <footer id="footer" class="position-relative">
-        <div >
-            <p class="copy-right">Developed By  <a href="https://shafiqsuhag.com" target="_blank" class="text-decoration-none">Shafiq Suhag</a> </p>
+    <footer id="footer" class="honda-bg-vulcan px-2">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-8 d-flex justify-content-center flex-column px-3">
+                    <div >
+                        
+                        <ul class="navbar-nav d-flex flex-row ">
+                            <li class="nav-item pe-3"> <a href="#" class="nav-link text-white">Download</a> </li>
+                            <li class="nav-item "> <a href="#" class="nav-link text-white">License</a> </li>
+                        </ul>
+                        
+                        <ul class="navbar-nav d-flex flex-row flex-wrap flex-md-nowrap ">
+                            <li class="nav-item  pe-3"> <a href="#" class="nav-link text-white">About</a> </li>
+                            <li class="nav-item  pe-3"> <a href="#" class="nav-link text-white">Features</a> </li>
+                            <li class="nav-item  pe-3"> <a href="#" class="nav-link text-white">Pricing</a> </li>
+                            <li class="nav-item  pe-3"> <a href="#" class="nav-link text-white">Careers</a> </li>
+                            <li class="nav-item  pe-3"> <a href="#" class="nav-link text-white">Help</a> </li>
+                            <li class="nav-item  "> <a href="#" class="nav-link text-white">Privacy Policy</a> </li>
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col-md-3 mt-3 d-flex justify-content-center flex-column">
+                    <div >
+                        <p class="text-white ">Get the App</p>
+                        <div>
+                            <img src="images/app-ios.png" alt="">
+                            <img src="images/app-play.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <p class="text-white pt-4 d-flex justify-content-center justify-content-md-start ">© 2020 bike. All rights reserved</p>
+            </div>
         </div>
+        <!-- <div >
+            <p class="copy-right">Developed By  <a href="https://shafiqsuhag.com" target="_blank" class="text-decoration-none">Shafiq Suhag</a> </p>
+        </div> -->
         
     </footer>
 
-    <div class="d-none d-md-block" style="height: 300px;"></div>
+    
 
     <!-- javascript  -->
     <script src="js/bootstrap.min.js"></script>
