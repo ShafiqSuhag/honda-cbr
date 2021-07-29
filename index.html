@@ -12,7 +12,7 @@
 <body>
 
     <header id="header" class="honda-bg-blue-dianne ">
-        <div class="container text-white">
+        <div class="container text-white ">
             <!-- navigation section : optional  -->
              <!-- hero section  -->
             <div class="row min-vh-100">
@@ -22,7 +22,10 @@
                     <p class="fs-1 honda-font-weight-bold my-0">Honda CBR 300R</p>
                     <p class="honda-text-alto w-md-75 py-3 font-weight-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <p>  
-                        <a href="" class="btn btn-info honda-bg-burnt-sienna  py-2 px-5 border-0 h6 text-white">Purchase</a>
+                        <a href="" class="btn btn-info honda-bg-burnt-sienna  py-2 px-5 border-0 h6 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</a>
+                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button> -->
                     </p>
                 </div>
                  <!-- hero section image  -->
@@ -35,6 +38,42 @@
             
            
             <!-- hero section modal  -->
+            <!-- Button trigger modal -->
+               
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content text-dark">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R - Purchase </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="alert alert-warning">Fill up your info , our sales executive will contact you soon.</p>
+                            <form class="form-floating">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="user-name"   placeholder="Your Name" >
+                                    <label for="user-name">Your Name</label>                                    
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="user-email" placeholder="Write Your Email">
+                                    <label for="user-email">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile-number"   placeholder="Mobile Number" >
+                                    <label for="mobile-number">Mobile Number</label>                                    
+                                </div>
+                            </form>
+                           
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
             <!-- hero section modal ./ -->
             <!-- hero section ./ -->
@@ -49,7 +88,7 @@
                 <div class="">
                     <div class="d-flex flex-column align-items-center justify-content-center my-0">
                     
-                        <p class="h1 honda-font-weight-bold ">Fetured Bikes 2021</p>
+                        <p class="h1 honda-font-weight-bold ">Featured Bikes 2021</p>
                         <p class="honda-text-burnt-sienna honda-font-weight-bold mb-0">Best bike collection</p>
                        
                     </div>
