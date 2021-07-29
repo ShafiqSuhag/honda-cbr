@@ -1,9 +1,9 @@
 /* font  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Inter:wght@400;500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 
 /* header  */
 
@@ -33,6 +33,10 @@ body{
     color:  #E77C40;
 }
 
+.honda-text-mine-shaft{
+    color: #383838;
+}
+
 
 /* background color  */
 .honda-bg-blue-dianne{
@@ -43,15 +47,28 @@ body{
 }
 
 /* font  */
-.font-weight-light{
+.honda-font-family-inter{
+    font-family: 'Inter', sans-serif;
+
+}
+
+.honda-font-weight-light{
     font-weight: 300;
 }
-.font-weight-bold{
+.honda-font-weight-regular{
+    font-weight: 400;
+}
+.honda-font-weight-medium{
+    font-weight: 500;
+}
+.honda-font-weight-bold{
     font-weight: 700;
 }
-.rating > .far.fa-star ,.rating .fas.fa-star{
+.honda-rating > .far.fa-star ,.rating .fas.fa-star{
     font-size: 1.375rem;
 }
+
+
 
 
 /* sizing  */
@@ -63,8 +80,8 @@ body{
 .honda-mt-7{
     margin-top: 4rem;
 }
-.honda-my-10{
-    margin-top: 7rem;
+.honda-my-faq{
+    margin-top: 9.8rem;
     margin-bottom: 7rem;
 }
 .honda-mt-n6{
@@ -103,7 +120,9 @@ body{
 }
 
 /* FAQ Section */
-
+#faq-section button.accordion-button.bg-white.honda-font-weight-medium {
+    color: #383838;
+}
 
 /* ------------------------------------------
                 FOOTER
