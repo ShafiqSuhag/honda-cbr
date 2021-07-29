@@ -80,9 +80,11 @@ body{
 .honda-mt-7{
     margin-top: 4rem;
 }
-.honda-my-faq{
-    margin-top: 9.8rem;
-    margin-bottom: 7rem;
+.honda-mt-faq-title{
+    margin-top: 10rem;
+}
+.honda-mb-faq-title{
+    margin-bottom: 3.25rem;
 }
 .honda-mt-n6{
     margin-top: -0.625rem;
@@ -111,12 +113,15 @@ body{
 ------------------------------------------*/
 
 /* featured bike section */
+.featured-bike-container {
+    min-height: 31rem;
+ }
 /* latest news optional */
 /* happy client section  */
 
 .honda-img-frame-client{
-    height: 149px;
-    width: 149px;
+    height: 9.313rem;
+    width:  9.313rem;
 }
 
 /* FAQ Section */
