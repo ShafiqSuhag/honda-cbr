@@ -46,6 +46,14 @@ body{
     background-color: #E76F51;
 }
 
+
+/* shadow  */
+.honda-shadow-md-info{
+    box-shadow: 0 0.05rem 0.55rem #d5e5fb;
+}
+
+
+
 /* font  */
 .honda-font-family-inter{
     font-family: 'Inter', sans-serif;
@@ -129,6 +137,41 @@ body{
     color: #383838;
 }
 
+
+
+
+/* ------------------------------------------
+                Extra Section
+------------------------------------------*/
+.bike-accessories-section{
+    background-image: url(../images/bg-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.7);
+}
+.bike-move-to-left{
+    position: absolute;
+    left: 25%;
+    background-color: white;
+    margin-top: 30px;
+}
+.copy-right{
+    position: absolute;
+    top: 200px;
+    left: 45%;
+}
+
+@media screen and (max-width:767px) {
+    .copy-right{
+        position: relative;
+        left: 0;
+        top: 0;
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+}
 /* ------------------------------------------
                 FOOTER
 ------------------------------------------*/
