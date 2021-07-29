@@ -10,14 +10,37 @@ body{
 }
 
 
-/* header  */
-
-/* logo  */
-
-
 /* common styling  */
 
-/* text color  */
+/* font  */
+.honda-font-family-inter{
+    font-family: 'Inter', sans-serif;
+}
+
+/* font weight */
+
+.honda-font-weight-light{
+    font-weight: 300;
+}
+.honda-font-weight-regular{
+    font-weight: 400;
+}
+.honda-font-weight-medium{
+    font-weight: 500;
+}
+.honda-font-weight-bold{
+    font-weight: 700;
+}
+
+/* font awesome  */
+.honda-rating > .far.fa-star ,.rating .fas.fa-star{
+    font-size: 1.375rem;
+}
+
+
+/* ---------------------------------------
+               Custom Text color
+ ---------------------------------------- */
 
 .honda-text-alto{
     color: #E0E0E0;
@@ -41,7 +64,10 @@ body{
 }
 
 
-/* background color  */
+
+/* ---------------------------------------
+               Custom Background Color
+ ---------------------------------------- */
 .honda-bg-blue-dianne{
     background-color: #264653;
 }
@@ -50,43 +76,27 @@ body{
 }
 
 
-/* shadow  */
+/* SHADOW  */
 .honda-shadow-md-info{
     box-shadow: 0 0.05rem 0.55rem #d5e5fb;
 }
 
 
-
-/* font  */
-.honda-font-family-inter{
-    font-family: 'Inter', sans-serif;
-
-}
-
-.honda-font-weight-light{
-    font-weight: 300;
-}
-.honda-font-weight-regular{
-    font-weight: 400;
-}
-.honda-font-weight-medium{
-    font-weight: 500;
-}
-.honda-font-weight-bold{
-    font-weight: 700;
-}
-.honda-rating > .far.fa-star ,.rating .fas.fa-star{
-    font-size: 1.375rem;
-}
-
-
-
-
-/* sizing  */
+/* ---------------------------------------
+                sizing
+---------------------------------------*/
 .w-06{
     width: 6%;
 }
-/* spacing  */
+
+.honda-feature-bike-frame{
+    width: 288px;
+    height: 243px;
+}
+
+/* ---------------------------------------
+                SPACING
+---------------------------------------*/
 
 .honda-mt-7{
     margin-top: 4rem;
@@ -101,10 +111,8 @@ body{
     margin-top: -0.625rem;
 }
 
-.honda-feature-bike-frame{
-    width: 288px;
-    height: 243px;
-}
+
+/* filter  */
 
 .honda-filter-grayscale{
     filter: grayscale(100%);
@@ -136,7 +144,7 @@ body{
 }
 
 /* FAQ Section */
-#faq-section button.accordion-button.bg-white.honda-font-weight-medium {
+#faq-section button.accordion-button {
     color: #383838;
 }
 
@@ -154,17 +162,11 @@ body{
     background-color: rgba(0,0,0,0.7);
 }
 .bike-move-to-left{
-    /* position: absolute;
-    left: 0;
-    background-color: white;
-    margin-top: 30px; */
     background-color: white;
     margin-top: 30px;
     transform: translate(-35%, 0);
 }
-.copy-right{
-    
-}
+
 
 @media screen and (max-width:767px) {
     .copy-right{
